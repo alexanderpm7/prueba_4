@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  width: 70%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+	background-color:black;
+	width: 100%;
+	position: fixed;
+}
+
+nav {
+  float: left; 
+}
+nav tr {
+  list-style: none;
+  overflow: hidden; 
+}
+nav tr td {
+  	float: left;
+  	font: oblique bold 80% cursive;
+  	font-size: 20px;
+  	text-decoration: none;
+}
+nav tr td a {
+ 	display: block;
+  	padding: 20px;
+  	color: #fff;
+  	text-decoration: none;
+}
+nav tr td:hover {
+	background: #e98407;
+}
+
+nav td tr {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
+
+
+#mapa{
+   width:800px;
+   float:left;
+   height:300px;
+   margin-top:130px;
+   margin-left:700px;
+}
+
+
+body{
+
+	background-color:darkgray;
+
+}
+
